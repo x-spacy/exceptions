@@ -1,0 +1,42 @@
+{
+  "name": "@x-spacy/exceptions",
+  "version": "0.0.0",
+  "description": "Exceptions module used by X-Spacy.",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "@types/index.d.ts",
+  "type": "module",
+  "author": {
+    "name": "Vinícius Gutierrez da Silva Rocha",
+    "email": "srgutyerrez@gmail.com",
+    "url": "https://github.com/gutyerrez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-spacy/exceptions.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "tag": "latest"
+  },
+  "engines": {
+    "node": "v20.x.x"
+  },
+  "scripts": {
+    "build": "sh scripts/build.sh"
+  },
+  "dependencies": {
+    "@x-spacy/eslint-config": "^1.0.0",
+    "i18next": "^23.11.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/plugin-transform-typescript": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "eslint": "^9.3.0",
+    "typescript": "^5.4.5"
+  }
+}
