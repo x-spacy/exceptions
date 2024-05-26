@@ -19,12 +19,6 @@ devDependencies:
   '@babel/core':
     specifier: ^7.24.6
     version: 7.24.6
-  '@babel/plugin-transform-modules-commonjs':
-    specifier: ^7.24.6
-    version: 7.24.6(@babel/core@7.24.6)
-  '@babel/plugin-transform-typescript':
-    specifier: ^7.24.6
-    version: 7.24.6(@babel/core@7.24.6)
   '@babel/preset-env':
     specifier: ^7.24.6
     version: 7.24.6(@babel/core@7.24.6)
