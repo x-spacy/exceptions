@@ -28,15 +28,15 @@
     "build": "sh scripts/build.sh"
   },
   "dependencies": {
-    "@x-spacy/eslint-config": "^1.0.0",
-    "i18next": "^23.11.4"
+    "i18next": "^23.11.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.6",
     "@babel/core": "^7.24.6",
     "@babel/preset-env": "^7.24.6",
     "@babel/preset-typescript": "^7.24.6",
-    "eslint": "^9.3.0",
+    "@x-spacy/eslint-config": "^1.7.1",
+    "eslint": "^9.4.0",
     "typescript": "^5.4.5"
   }
 }
