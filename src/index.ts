@@ -5,9 +5,9 @@ export class Exception {
   public readonly name: string;
   public readonly message: string | undefined;
 
-  constructor(status: number, name: string, message?: string, parameters?: Record<string, string | number>) {
+  constructor(status: number, name: string, parameters?: Record<string, string | number>, message?: string) {
     this.status = status;
     this.name = name;
-    this.message = message ?? i18next.t(name, parameters);
+    this.message = i18next.t(message ?? name, parameters);
   }
 }
