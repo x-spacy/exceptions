@@ -5,7 +5,10 @@ export class Exception extends Error {
   public readonly name: string;
 
   constructor(status: number, name: string, parameters?: Record<string, string | number>, message?: string) {
-    super(i18next.t(message ?? name, parameters));
+    super(i18next.t(message ?? name, {
+      defaultValue: name,
+      ...parameters
+    }));
 
     this.status = status;
     this.name = name;
